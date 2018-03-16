@@ -1,0 +1,19 @@
+public class Mon11 {
+ public static void main(String[] args) {  
+ int a[] = {1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89};   
+ int count = 0;  
+ for(int c = 0;c<a.length;c++) {   
+ if(a[c]<7) {    
+ count++;
+   }  
+   }  
+   int[] b = new int[count];  
+   for (int e = 0;e<a.length;e++) {   
+   if(a[e]<7) {    
+   b[e]=a[e];    
+   }
+  }  
+  for(int h = 0;h < b.length;h++) 
+  {   System.out.println(b[h]);  }
+ }
+}
